@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Bug list edit</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css"></link>
+        <script type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                代号AK47
+            </div>
+        </div>
+        <div class="nav-wrapper">
+            <div class="nav">首页; 版块; BUG反馈</div>
+        </div>
+        <div class="wrapper">
+            <div class="title">
+                BUG反馈报告
+            </div>
+            <div class="main">
+                <form class="bug-form">
+                    <!--
+                    <ul class="form-field">
+                        <li class="form-control">
+                            <div class="l-column">
+                                <label for="model">使用机型</label>
+                                <select id="model">
+                                    <option value="">大神X7</option>
+                                </select>
+                            </div>
+                            <div class="r-column">
+                                <label for="model">版本号</label>
+                                <select id="model">
+                                    <option value="">3.4.5</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="form-control">
+                            <div class="l-column">
+                                <label for="reproduce-probability">重现概率</label>
+                                <select id="reproduce-probability">
+                                    <option value="">30%</option>
+                                </select>
+                            </div>
+                            <div class="r-column">
+                                <label for="rom-version">ROM版本</label>
+                                <select id="rom-version">
+                                    <option value="">公开版</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="form-control">
+                            <label for="desc">问题描述</label>
+                            <textarea id="desc" col="4" row="100%"></textarea>
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    -->
+
+                    <table class="table">
+                        <tr>
+                            <td>模块</td>
+                            <td colspan="3">
+                                <div href="#" class="dropdown-holder select-module">
+                                    <span>请选择模块</span>
+
+                                    <div class="menutree">
+                                        <ul >
+                                            <li>
+                                                <a href="#">通讯服务</a>
+                                                <ul class="submenu">
+                                                    <li>通讯服务</li>
+                                                    <li>通讯服务</li>
+                                                    <li>通讯服务</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a>桌面主题</a>
+                                                <ul class="submenu">
+                                                    <li>桌面主题</li>
+                                                    <li>桌面主题</li>
+                                                    <li>桌面主题</li>
+                                                </ul>
+                                            </li>
+                                            <li><a>多媒体应用</a></li>
+                                            <li><a>系统应用</a></li>
+                                            <li><a>系统工具</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>使用机型</td>
+                            <td>
+                                <select id="model">
+                                    <option value="">大神X7</option>
+                                    <option value="">大神X6</option>
+                                    <option value="">大神X5</option>
+                                </select>
+                            </td>
+                            <td>版本号</td>
+                            <td>
+                                <select id="model">
+                                    <option value="">3.4.5</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>重现概率</td>
+                            <td>
+                                <select id="reproduce-probability">
+                                    <option value="">30%</option>
+                                </select>
+                            </td>
+                            <td>ROM版本</td>
+                            <td>
+                                <select id="rom-version">
+                                    <option value="">公开版</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>问题描述</td>
+                            <td colspan="3">
+                                <textarea id="desc" col="4" row="100%" placeholder="请输入问题描述"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>重现步骤</td>
+                            <td colspan="3">
+                                <textarea col="4" row="100%" placeholder="请输入重现步骤"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>BUG截图</td>
+                            <td colspan="3">
+                                <div class="upload-block">
+                                    <img src="/img/image.png"/>
+                                    <a href="#">上传图片</a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>LOG文件</td>
+                            <td colspan="3">
+                                <div class="upload-block">
+                                    <img src="/img/file.png"/>
+                                    <a href="#">上传文件</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    
+                    <input type="submit" class="btn-bug-submit" value="提交报告"/>
+                </form>
+            </div>
+            <div class="footer">
+                Copyright @ 360 OS All Rights Reserved
+            </div>
+        </div>
+        
+    </body>
+</html>
