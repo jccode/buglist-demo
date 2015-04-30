@@ -4,6 +4,11 @@
         <meta charset="utf-8"/>
         <title>Bug list edit</title>
         <link rel="stylesheet" type="text/css" href="style/style.css"></link>
+        <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" type="text/css" href="style/custom-select.css"/>
+        <script type="text/javascript" src="js/custom-select.js"></script>
+        <![endif]-->
         <script type="text/javascript"></script>
     </head>
     <body>
@@ -98,7 +103,7 @@
                         <tr>
                             <td>使用机型</td>
                             <td>
-                                <select id="model">
+                                <select id="model" class="styled">
                                     <option value="">大神X7</option>
                                     <option value="">大神X6</option>
                                     <option value="">大神X5</option>
@@ -106,7 +111,7 @@
                             </td>
                             <td>版本号</td>
                             <td>
-                                <select id="model">
+                                <select id="model" class="styled">
                                     <option value="">3.4.5</option>
                                 </select>
                             </td>
@@ -114,13 +119,13 @@
                         <tr>
                             <td>重现概率</td>
                             <td>
-                                <select id="reproduce-probability">
+                                <select id="reproduce-probability" class="styled">
                                     <option value="">30%</option>
                                 </select>
                             </td>
                             <td>ROM版本</td>
                             <td>
-                                <select id="rom-version">
+                                <select id="rom-version" class="styled">
                                     <option value="">公开版</option>
                                 </select>
                             </td>

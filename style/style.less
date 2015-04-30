@@ -193,6 +193,7 @@ body {
         width: 193px;
         color: #4d4d4d;
         padding: 0 12px 0;
+        padding: ~"0\9";
     }
 
     @hack_ie678: ~"\9";
@@ -529,9 +530,16 @@ table.table {
     // width: 193px;
     // border-color: #E1E1E1;
     
+    // hack ie
+    .ie & {
+        background-position: (@width-menutree - 30px) 50% ;
+    }
+    
     .menutree {
         margin-left: -1px;
         display: none;
+        position: relative;
+        z-index: 100;
     }
 
     &:hover {

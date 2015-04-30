@@ -1,0 +1,20 @@
+
+span.customStyleSelectBox {
+    font-family: "Microsoft YaHei",SimHei,Verdana,Arial,sans-serif;
+    font-size: 16px;
+    /* background-color: #f5f0de; */
+    color:#4d4d4d;
+    padding: 0px 12px;
+    border:1px solid #E1E1E1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px 5px;
+    line-height: 30px;
+}
+span.customStyleSelectBox.changed {
+    /* background-color: #f0dea4; */
+}
+.customStyleSelectBoxInner {
+    background:url('/img/select_arrow_down.png') no-repeat center right;
+}
+
